@@ -26,6 +26,216 @@
     </content>
     <orderEntry type="jdk" jdkName="RVM: ruby-2.1.2 [fabric_store]" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="spree (v[path], /home/usermac44/workspace/fabric_store/spree) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/spree/api" />
+          <root url="file://$MODULE_DIR$/spree/cmd" />
+          <root url="file://$MODULE_DIR$/spree/lib" />
+          <root url="file://$MODULE_DIR$/spree/core" />
+          <root url="file://$MODULE_DIR$/spree/sample" />
+          <root url="file://$MODULE_DIR$/spree/backend" />
+          <root url="file://$MODULE_DIR$/spree/frontend" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/spree/api" />
+          <root url="file://$MODULE_DIR$/spree/cmd" />
+          <root url="file://$MODULE_DIR$/spree/lib" />
+          <root url="file://$MODULE_DIR$/spree/core" />
+          <root url="file://$MODULE_DIR$/spree/sample" />
+          <root url="file://$MODULE_DIR$/spree/backend" />
+          <root url="file://$MODULE_DIR$/spree/frontend" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spree_api (v[path], /home/usermac44/workspace/fabric_store/spree/api) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/spree/api/db" />
+          <root url="file://$MODULE_DIR$/spree/api/app" />
+          <root url="file://$MODULE_DIR$/spree/api/lib" />
+          <root url="file://$MODULE_DIR$/spree/api/config" />
+          <root url="file://$MODULE_DIR$/spree/api/script" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/spree/api/db" />
+          <root url="file://$MODULE_DIR$/spree/api/app" />
+          <root url="file://$MODULE_DIR$/spree/api/lib" />
+          <root url="file://$MODULE_DIR$/spree/api/config" />
+          <root url="file://$MODULE_DIR$/spree/api/script" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spree_auth_devise (v2.2.0, /home/usermac44/workspace/fabric_store/spree_auth_devise) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/spree_auth_devise/db" />
+          <root url="file://$MODULE_DIR$/spree_auth_devise/app" />
+          <root url="file://$MODULE_DIR$/spree_auth_devise/lib" />
+          <root url="file://$MODULE_DIR$/spree_auth_devise/config" />
+          <root url="file://$MODULE_DIR$/spree_auth_devise/script" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/spree_auth_devise/db" />
+          <root url="file://$MODULE_DIR$/spree_auth_devise/app" />
+          <root url="file://$MODULE_DIR$/spree_auth_devise/lib" />
+          <root url="file://$MODULE_DIR$/spree_auth_devise/config" />
+          <root url="file://$MODULE_DIR$/spree_auth_devise/script" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spree_backend (v[path], /home/usermac44/workspace/fabric_store/spree/backend) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/spree/backend/app" />
+          <root url="file://$MODULE_DIR$/spree/backend/lib" />
+          <root url="file://$MODULE_DIR$/spree/backend/config" />
+          <root url="file://$MODULE_DIR$/spree/backend/script" />
+          <root url="file://$MODULE_DIR$/spree/backend/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/spree/backend/app" />
+          <root url="file://$MODULE_DIR$/spree/backend/lib" />
+          <root url="file://$MODULE_DIR$/spree/backend/config" />
+          <root url="file://$MODULE_DIR$/spree/backend/script" />
+          <root url="file://$MODULE_DIR$/spree/backend/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spree_cmd (v[path], /home/usermac44/workspace/fabric_store/spree/cmd) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/spree/cmd/bin" />
+          <root url="file://$MODULE_DIR$/spree/cmd/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/spree/cmd/bin" />
+          <root url="file://$MODULE_DIR$/spree/cmd/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spree_core (v[path], /home/usermac44/workspace/fabric_store/spree/core) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/spree/core/db" />
+          <root url="file://$MODULE_DIR$/spree/core/app" />
+          <root url="file://$MODULE_DIR$/spree/core/lib" />
+          <root url="file://$MODULE_DIR$/spree/core/config" />
+          <root url="file://$MODULE_DIR$/spree/core/script" />
+          <root url="file://$MODULE_DIR$/spree/core/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/spree/core/db" />
+          <root url="file://$MODULE_DIR$/spree/core/app" />
+          <root url="file://$MODULE_DIR$/spree/core/lib" />
+          <root url="file://$MODULE_DIR$/spree/core/config" />
+          <root url="file://$MODULE_DIR$/spree/core/script" />
+          <root url="file://$MODULE_DIR$/spree/core/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spree_fancy (v1.3.0, /home/usermac44/workspace/fabric_store/spree_fancy) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/spree_fancy/db" />
+          <root url="file://$MODULE_DIR$/spree_fancy/app" />
+          <root url="file://$MODULE_DIR$/spree_fancy/lib" />
+          <root url="file://$MODULE_DIR$/spree_fancy/config" />
+          <root url="file://$MODULE_DIR$/spree_fancy/script" />
+          <root url="file://$MODULE_DIR$/spree_fancy/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/spree_fancy/db" />
+          <root url="file://$MODULE_DIR$/spree_fancy/app" />
+          <root url="file://$MODULE_DIR$/spree_fancy/lib" />
+          <root url="file://$MODULE_DIR$/spree_fancy/config" />
+          <root url="file://$MODULE_DIR$/spree_fancy/script" />
+          <root url="file://$MODULE_DIR$/spree_fancy/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spree_frontend (v[path], /home/usermac44/workspace/fabric_store/spree/frontend) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/spree/frontend/app" />
+          <root url="file://$MODULE_DIR$/spree/frontend/lib" />
+          <root url="file://$MODULE_DIR$/spree/frontend/config" />
+          <root url="file://$MODULE_DIR$/spree/frontend/script" />
+          <root url="file://$MODULE_DIR$/spree/frontend/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/spree/frontend/app" />
+          <root url="file://$MODULE_DIR$/spree/frontend/lib" />
+          <root url="file://$MODULE_DIR$/spree/frontend/config" />
+          <root url="file://$MODULE_DIR$/spree/frontend/script" />
+          <root url="file://$MODULE_DIR$/spree/frontend/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spree_gateway (v2.3.0.beta, /home/usermac44/workspace/fabric_store/spree_gateway) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/spree_gateway/db" />
+          <root url="file://$MODULE_DIR$/spree_gateway/app" />
+          <root url="file://$MODULE_DIR$/spree_gateway/lib" />
+          <root url="file://$MODULE_DIR$/spree_gateway/config" />
+          <root url="file://$MODULE_DIR$/spree_gateway/script" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/spree_gateway/db" />
+          <root url="file://$MODULE_DIR$/spree_gateway/app" />
+          <root url="file://$MODULE_DIR$/spree_gateway/lib" />
+          <root url="file://$MODULE_DIR$/spree_gateway/config" />
+          <root url="file://$MODULE_DIR$/spree_gateway/script" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spree_product_zoom (v2.2, /home/usermac44/workspace/fabric_store/spree_product_zoom) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/spree_product_zoom/app" />
+          <root url="file://$MODULE_DIR$/spree_product_zoom/lib" />
+          <root url="file://$MODULE_DIR$/spree_product_zoom/config" />
+          <root url="file://$MODULE_DIR$/spree_product_zoom/script" />
+          <root url="file://$MODULE_DIR$/spree_product_zoom/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/spree_product_zoom/app" />
+          <root url="file://$MODULE_DIR$/spree_product_zoom/lib" />
+          <root url="file://$MODULE_DIR$/spree_product_zoom/config" />
+          <root url="file://$MODULE_DIR$/spree_product_zoom/script" />
+          <root url="file://$MODULE_DIR$/spree_product_zoom/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spree_sample (v[path], /home/usermac44/workspace/fabric_store/spree/sample) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/spree/sample/db" />
+          <root url="file://$MODULE_DIR$/spree/sample/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/spree/sample/db" />
+          <root url="file://$MODULE_DIR$/spree/sample/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spree_static_content (v[path], /home/usermac44/workspace/fabric_store/spree_static_content) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/spree_static_content/db" />
+          <root url="file://$MODULE_DIR$/spree_static_content/app" />
+          <root url="file://$MODULE_DIR$/spree_static_content/lib" />
+          <root url="file://$MODULE_DIR$/spree_static_content/config" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/spree_static_content/db" />
+          <root url="file://$MODULE_DIR$/spree_static_content/app" />
+          <root url="file://$MODULE_DIR$/spree_static_content/lib" />
+          <root url="file://$MODULE_DIR$/spree_static_content/config" />
+        </SOURCES>
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v4.1.2, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v4.1.2, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionview (v4.1.2, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
@@ -99,18 +309,6 @@
     <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.4.0, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="select2-rails (v3.5.9, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="slop (v3.5.0, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree (v2.3.2.beta@9d3f63, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_api (v2.3.2.beta@9d3f63, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_auth_devise (v2.2.0@7b93f1, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_backend (v2.3.2.beta@9d3f63, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_cmd (v2.3.2.beta@9d3f63, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_core (v2.3.2.beta@9d3f63, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_fancy (v1.3.0@7336df, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_frontend (v2.3.2.beta@9d3f63, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_gateway (v2.3.0.beta@596e7c, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_product_zoom (v2.2@0a23e5, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_sample (v2.3.2.beta@9d3f63, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_static_content (v2.2.0@a56085, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring (v1.1.3, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.11.0, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v2.1.3, RVM: ruby-2.1.2 [fabric_store]) [gem]" level="application" />

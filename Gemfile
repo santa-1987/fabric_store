@@ -26,12 +26,12 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 gem 'pry',        group: :development
-gem 'spree', github: 'spree/spree', branch: '2-3-stable'
-gem 'spree_fancy', :github => 'spree/spree_fancy', :branch => '2-3-stable'
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-3-stable'
-gem "spree_product_zoom", :git => "git://github.com/spree/spree_product_zoom.git"
-gem 'spree_static_content', github: 'spree/spree_static_content', branch: 'master'
-gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-3-stable'
+gem 'spree', :path => 'spree'#github: 'spree/spree', branch: '2-3-stable'
+gem 'spree_fancy',:path => 'spree_fancy' #:github => 'spree/spree_fancy', :branch => '2-3-stable'
+gem 'spree_auth_devise',:path => 'spree_auth_devise'# github: 'spree/spree_auth_devise', branch: '2-3-stable'
+gem "spree_product_zoom",:path => 'spree_product_zoom'# :git => "git://github.com/spree/spree_product_zoom.git"
+gem 'spree_static_content',:path => 'spree_static_content'# github: 'spree/spree_static_content', branch: 'master'
+gem 'spree_gateway',:path => 'spree_gateway' #github: 'spree/spree_gateway', branch: '2-3-stable'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
