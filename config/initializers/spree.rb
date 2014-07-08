@@ -12,3 +12,5 @@ Spree.config do |config|
 end
 
 Spree.user_class = "Spree::User"
+Spree::Config.admin_interface_logo="/asp.png"
+Spree::Config.logo="/asp.png"
