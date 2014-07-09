@@ -1,0 +1,1 @@
+remove 'erb:contains("select_tag :taxon")'

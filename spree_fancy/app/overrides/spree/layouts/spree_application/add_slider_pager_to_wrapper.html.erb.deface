@@ -1,0 +1,4 @@
+<!-- insert_top '#wrapper' -->
+<% if current_page?(root_path) %>
+  <div class="bx-wrapper slider-pager"></div>
+<% end %>
